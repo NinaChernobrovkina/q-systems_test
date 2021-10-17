@@ -64,8 +64,8 @@ const Plan = {
 const PlanDetail = {
   template: `
     <div class="plan-detail">
-      <h1 class="plan-detail__title">{{type}} {{number}}:<br>{{{title}}</h1>
-      <div class="plan-detail__content">{{{content}}</div>
+      <h1 class="plan-detail__title">{{type}} {{number}}:<br>{{{title}}}</h1>
+      <div class="plan-detail__content">{{{content}}}</div>
       <div class="plan-detail__themes">
         <p class="plan-detail__themes-title">Темы в этом разделе:</p>
         <ul class="plan-detail__themes-list">
